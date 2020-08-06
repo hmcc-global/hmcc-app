@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "959486943216",
+    "firebase_url": "https://hmcc-hk-app.firebaseio.com",
+    "project_id": "hmcc-hk-app",
+    "storage_bucket": "hmcc-hk-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959486943216:android:379d11f26f999d32308735",
+        "android_client_info": {
+          "package_name": "com.hmccapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959486943216-gta1vj3q7gge0d0t363um96tbqpi95qf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr_Bf-9b5JHRyAM21oZ6DukrCbsARyYbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959486943216-gta1vj3q7gge0d0t363um96tbqpi95qf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "959486943216-ggl45kdaccdpv8p34lfdjcr178831h8m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.noexpoFirebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

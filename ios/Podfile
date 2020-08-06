@@ -21,6 +21,10 @@ target 'hmccApp' do
   post_install do |installer|
     flipper_post_install(installer)
   end
+
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
 end
 
 target 'hmccApp-tvOS' do
