@@ -17,6 +17,10 @@
 		2DCD954D1E0B4F2C00145EB5 /* hmccAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* hmccAppTests.m */; };
 		32447815FA5CC546EED83015 /* libPods-hmccApp-hmccAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1CEBAD01D5DFFB7B899843 /* libPods-hmccApp-hmccAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8523FBFD24DD37D700D7EF53 /* NotoSerif-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8523FBF924DD37D500D7EF53 /* NotoSerif-Italic.ttf */; };
+		8523FBFE24DD37D700D7EF53 /* NotoSerif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8523FBFA24DD37D600D7EF53 /* NotoSerif-Bold.ttf */; };
+		8523FBFF24DD37D700D7EF53 /* NotoSerif.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8523FBFB24DD37D700D7EF53 /* NotoSerif.ttf */; };
+		8523FC0024DD37D700D7EF53 /* NotoSerif-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8523FBFC24DD37D700D7EF53 /* NotoSerif-BoldItalic.ttf */; };
 		8556F6C824DC603900A1911B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8556F6C724DC603900A1911B /* GoogleService-Info.plist */; };
 		EA74DE7856C67F1C5E70B501 /* libPods-hmccApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FFF85924A86D18C59FD6F3 /* libPods-hmccApp-tvOS.a */; };
 		F5F3733FA9AB53E704CEEEC1 /* libPods-hmccApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCB4D4E2AF6BF99B8281FB2 /* libPods-hmccApp-tvOSTests.a */; };
@@ -59,6 +63,10 @@
 		55FFF85924A86D18C59FD6F3 /* libPods-hmccApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hmccApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64323F3132F1BE6FEBAB1790 /* Pods-hmccApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hmccApp.release.xcconfig"; path = "Target Support Files/Pods-hmccApp/Pods-hmccApp.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = hmccApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8523FBF924DD37D500D7EF53 /* NotoSerif-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerif-Italic.ttf"; sourceTree = "<group>"; };
+		8523FBFA24DD37D600D7EF53 /* NotoSerif-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerif-Bold.ttf"; sourceTree = "<group>"; };
+		8523FBFB24DD37D700D7EF53 /* NotoSerif.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NotoSerif.ttf; sourceTree = "<group>"; };
+		8523FBFC24DD37D700D7EF53 /* NotoSerif-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerif-BoldItalic.ttf"; sourceTree = "<group>"; };
 		8556F6C724DC603900A1911B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		917143C40FFF75EC561B0D70 /* Pods-hmccApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hmccApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-hmccApp-tvOSTests/Pods-hmccApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B1CEBAD01D5DFFB7B899843 /* libPods-hmccApp-hmccAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hmccApp-hmccAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +192,10 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				8523FBFA24DD37D600D7EF53 /* NotoSerif-Bold.ttf */,
+				8523FBFC24DD37D700D7EF53 /* NotoSerif-BoldItalic.ttf */,
+				8523FBF924DD37D500D7EF53 /* NotoSerif-Italic.ttf */,
+				8523FBFB24DD37D700D7EF53 /* NotoSerif.ttf */,
 				13B07FAE1A68108700A75B9A /* hmccApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* hmccAppTests */,
@@ -351,6 +363,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8523FBFD24DD37D700D7EF53 /* NotoSerif-Italic.ttf in Resources */,
+				8523FBFE24DD37D700D7EF53 /* NotoSerif-Bold.ttf in Resources */,
+				8523FBFF24DD37D700D7EF53 /* NotoSerif.ttf in Resources */,
+				8523FC0024DD37D700D7EF53 /* NotoSerif-BoldItalic.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				8556F6C824DC603900A1911B /* GoogleService-Info.plist in Resources */,
