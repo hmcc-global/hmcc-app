@@ -49,7 +49,7 @@ const AnnouncementScreen = ({ route, navigation }) => {
 
   return (
     <View style={styles.container}>
-      <ImageHeader uri={imageHeaderLink} />
+      <ImageHeader height={250} source={{ uri: imageHeaderLink }} />
       <View style={styles.headerContainer}>
         <View style={styles.headerTopContainer}>
           <View style={styles.headerInfoContainer}>
