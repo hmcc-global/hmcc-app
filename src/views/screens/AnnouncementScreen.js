@@ -12,6 +12,15 @@ const AnnouncementScreen = ({ route, navigation }) => {
   useLayoutEffect(() => {
     navigation.setOptions({
       headerBackTitleVisible: false,
+      headerLeft: () => (
+        <Icon
+          color="transparent"
+          name="chevron-left"
+          onPress={() => navigation.navigate("Announcements")}
+          reverse
+          type="font-awesome-5"
+        />
+      ),
       headerTintColor: "white",
       headerTransparent: true,
       title: "",
